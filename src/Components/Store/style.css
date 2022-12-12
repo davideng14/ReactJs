@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.product{
+    width: 30%;
+    margin-right: 1rem;
+    border: .2em solid black;
+}
+
+.productDescription {
+    text-align: center;
+}
+
+.productDescription .price {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product img{
+    width: 100%;
+}
