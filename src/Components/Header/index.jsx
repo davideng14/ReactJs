@@ -1,10 +1,11 @@
 import './style.css';
 
-function Header({ numberOfProducts }) {
+function Header({ numberOfProducts: nroProducts = 3 }) {
+    
     return (
       <header className="header"> 
       <div className="companyName">
-        Art Store {numberOfProducts} 
+        Art Store {nroProducts} 
       </div>
       </header>
     );
