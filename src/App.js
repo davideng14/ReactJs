@@ -1,5 +1,6 @@
-import Header from './Components/Header';
-import Store from './Components/Store';
+import Header from './components/Header';
+import Store from './components/Store';
+import './App.css';
 
 
 export default function App() {

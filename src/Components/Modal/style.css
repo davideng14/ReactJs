@@ -1,0 +1,26 @@
+.overlay {
+    background-color: darkgray;
+    filter: blur(50%);
+    -webkit-filter: blur(50%);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.dialog {
+    position: absolute;
+    background: white;
+    min-width: 20%;
+    max-width: 60%;
+    min-height: 100px;
+    z-index: 100;
+}
+
+.dialog h2 {
+    text-align: center;
+    padding: 0 .5rem;
+}
